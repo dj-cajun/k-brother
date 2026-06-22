@@ -1,5 +1,5 @@
 nohup: ignoring input
-◇ injected env (5) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (5) from .env // tip: ⌘ override existing { override: true }
 Hermes Online: Hermes-Agent#5876
-(node:18378) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(node:18873) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
