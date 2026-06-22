@@ -1,19 +1,5 @@
 nohup: ignoring input
-◇ injected env (4) from .env // tip: ⌘ enable debugging { debug: true }
-/root/saigon-factory/node_modules/discord.js/src/client/Client.js:217
-    if (!token || typeof token !== 'string') throw new DiscordjsError(ErrorCodes.TokenInvalid);
-                                                   ^
-
-DiscordjsError [TokenInvalid]: An invalid token was provided.
-    at Client.login (/root/saigon-factory/node_modules/discord.js/src/client/Client.js:217:52)
-    at Object.<anonymous> (/root/saigon-factory/agent.js:62:8)
-    at Module._compile (node:internal/modules/cjs/loader:1356:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
-    at Module.load (node:internal/modules/cjs/loader:1197:32)
-    at Module._load (node:internal/modules/cjs/loader:1013:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
-    at node:internal/main/run_main_module:28:49 {
-  code: 'TokenInvalid'
-}
-
-Node.js v18.19.1
+◇ injected env (5) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Hermes Online: Hermes-Agent#5876
+(node:18378) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
